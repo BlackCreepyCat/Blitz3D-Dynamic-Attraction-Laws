@@ -1,6 +1,6 @@
 Graphics 800,600,32,2
 
-;Images für Planet und Partikel erstellen
+;Create images for planet and particles
 Global planet=CreateImage(128,128)
 Global particle=CreateImage(1,1)
 
@@ -124,7 +124,7 @@ End Function
 
 Function createplanet()
 
-        ;Imagebuffer für Writepixelfast setzen
+        ;Imagebuffer fÃ¼r Writepixelfast setzen
         SetBuffer ImageBuffer(planet)
         LockBuffer ImageBuffer(planet)
 
